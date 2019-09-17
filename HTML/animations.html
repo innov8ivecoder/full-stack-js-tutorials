@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Animations</title>
+    <style>
+      .bluebox {
+        background-color: blue;
+        height: 100px;
+        width: auto;
+        color: wheat;
+        position: relative;
+        animation: myAnimation 3s;
+        -webkit-animation: myAnimation 3s;
+      }
+      /* @keyframes myAnimation {
+        from {
+          background: green;
+        }
+        to {
+          background: blue;
+        }
+      }      
+      @-webkit-keyframes myAnimation {
+        from {
+          background: green;
+        }
+        to {
+          background: blue;
+        }
+      } */
+      @keyframes myAnimation {
+        0% {
+          background: green;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background: yellow;
+          left: 200px;
+          top: 0px;
+        }
+        50% {
+          background: blue;
+          left: 200px;
+          top: 200px;
+        }
+        75% {
+          background: orange;
+          left: 0px;
+          top: 200px;
+        }
+        100% {
+          background: green;
+          left: 0px;
+          top: 0px;
+        }
+      }
+      @-webkit-keyframes myAnimation {
+        0% {
+          background: green;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background: yellow;
+          left: 200px;
+          top: 0px;
+        }
+        50% {
+          background: blue;
+          left: 200px;
+          top: 200px;
+        }
+        75% {
+          background: orange;
+          left: 0px;
+          top: 200px;
+        }
+        100% {
+          background: green;
+          left: 0px;
+          top: 0px;
+        }
+      }
+      .orangebox {
+        background-color: rgb(233, 144, 72);
+        height: 100px;
+        width: auto;
+        color: black;
+      }
+      .great {
+        /* display: block; */
+        background-color: cornflowerblue;
+      }
+      .greenbox {
+        background-color: green;
+        height: 100px;
+        width: auto;
+        color: aliceblue;
+      }
+    </style>
+    <title>Background</title>
+  </head>
+  <body>
+    <div class="bluebox">
+      <p>Facebook Facebook Facebook Facebook Facebook Facebook Facebook</p>
+    </div>
+    <div class="orangebox">
+      <p>Apple is <span class="great">great</span></p>
+    </div>
+    <div class="greenbox">
+      <p>Microsoft</p>
+    </div>
+  </body>
+</html>

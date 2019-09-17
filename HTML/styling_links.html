@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Styling Links</title>
+    <style>
+      a:link {
+        color: black;
+      }
+      a:hover {
+        font-size: 1.5rem;
+      }
+      .bluebox {
+        background-color: blue;
+        height: 100px;
+        width: auto;
+        color: wheat;
+      }
+      div.bluebox a:active {
+        font-size: 2rem;
+      }
+      .orangebox {
+        background-color: rgb(233, 144, 72);
+        height: 100px;
+        width: auto;
+        color: black;
+      }
+      div.orangebox a:visited {
+        color: rgb(183, 210, 30);
+      }
+      .great {
+        /* display: block; */
+        background-color: cornflowerblue;
+      }
+      .greenbox {
+        background-color: green;
+        height: 100px;
+        width: auto;
+        color: aliceblue;
+      }
+    </style>
+    <title>Background</title>
+  </head>
+  <body>
+    <div class="bluebox">
+      <p>Facebook</p>
+      <p><a href="http://www.amazon.com">Visit this link</a></p>
+    </div>
+    <div class="orangebox">
+      <p>Apple is <span class="great">great</span></p>
+      <p><a href="http://www.ebay.com">Visit this link</a></p>
+    </div>
+    <div class="greenbox">
+      <p>Microsoft</p>
+      <p><a href="http://www.ssnet.org">Visit this link</a></p>
+    </div>
+  </body>
+</html>

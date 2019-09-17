@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Styling Lists</title>
+    <style>
+      ul.list1 {
+        /* list-style: square; */
+        /* list-style: lower-roman; */
+        /* list-style: upper-roman; */
+        list-style: upper-alpha;
+        /* list-style-image: url(img/PersonalLabor.png); */
+      }
+      ul.list2 {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      ul.list2 li {      
+        background-image: url(img/blue_square.png);
+        background-repeat: no-repeat;
+        background-position: 0px center;
+        padding-left: 30px;
+      }
+    </style>
+    <title>Background</title>
+  </head>
+  <body>
+    <p>A list of European capitals:
+        <ul class="list1">
+            <li>Paris</li>
+            <li>London</li>
+            <li>Madrid</li>
+          </ul>
+    </p>
+    <p>A list of European capitals:
+          <ul class="list2">
+              <li>Paris</li>
+              <li>London</li>
+              <li>Madrid</li>
+            </ul>
+  </p>
+  </body>
+</html>

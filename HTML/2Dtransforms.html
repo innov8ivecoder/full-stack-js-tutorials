@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>2D Transforms</title>
+    <style>
+      .bluebox {
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+        color: wheat;
+        /*transform: rotate(30deg);
+     -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg); 
+        transform: translate(20px, 30px);*/
+        /* transform: scale(0.5, 1); */
+        /* transform: skewX(16deg); */
+        /* transform: skewY(16deg); */
+        transform: skew(16deg, 17deg);
+      }
+      .orangebox {
+        background-color: rgb(233, 144, 72);
+        height: 100px;
+        width: auto;
+        color: black;
+      }
+      .great {
+        /* display: block; */
+        background-color: cornflowerblue;
+      }
+      .greenbox {
+        background-color: green;
+        height: 100px;
+        width: auto;
+        color: aliceblue;
+      }
+    </style>
+    <title>Background</title>
+  </head>
+  <body>
+    <div class="bluebox">
+      <p>Facebook Facebook Facebook Facebook Facebook Facebook Facebook</p>
+    </div>
+    <div class="orangebox">
+      <p>Apple is <span class="great">great</span></p>
+    </div>
+    <div class="greenbox">
+      <p>Microsoft</p>
+    </div>
+  </body>
+</html>

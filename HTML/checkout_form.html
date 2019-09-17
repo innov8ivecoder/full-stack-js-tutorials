@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Checkout Form</title>
+  </head>
+  <body>
+    <form action="" method="GET">
+      ]
+      <label for="address">Address:</label>
+      <input
+        type="text"
+        name="address"
+        id="address"
+        placeholder="Address"
+        size="30px"
+        maxlength="100"
+      />
+
+      <br /><br />
+
+      <label for="postcode">Post Code:</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Post Code"
+        size="30px"
+        maxlength="100"
+      />
+
+      <br /><br />
+
+      <label for="city">City:</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        size="30px"
+        maxlength="100"
+      />
+
+      <br /><br />
+      <p>
+        Choose your shipping method:
+      </p>
+      <select name="shipping" id="shipping">
+        <option value="Free super shipping">Free super shipping</option>
+        <option value="Two-day shipping">Two day shipping</option>
+        <option value="One-day shipping">One-day shipping</option>
+      </select>
+      <p>Choose your payment method</p>
+      <label for="payment"
+        >Paypal<input type="radio" name="payment" value="paypal"
+      /></label>
+      <label for="payment"
+        >Debit Card<input type="radio" name="payment" value="debit card"
+      /></label>
+      <label for="payment"
+        >Credit Card<input type="radio" name="payment" value="credit card"
+      /></label>
+
+      <br /><br />
+      <label for="comments">Comments</label>
+      <br /><br />
+      <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+      <br /><br />
+
+      <label for=""
+        >Sign me up for email updates<input
+          type="checkbox"
+          name="email updates"
+          checked="checked"
+      /></label>
+
+      <br />
+
+      <label for=""
+        >Securely save payment details<input
+          type="checkbox"
+          id=""
+          name="save payment"
+      /></label>
+
+      <br /><br />
+
+      <input type="submit" value="Chekout" />
+    </form>
+  </body>
+</html>
